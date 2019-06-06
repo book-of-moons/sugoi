@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+h2:not(#articlecard) {
+  text-decoration:underline;
+}
+
+img:not(#logo){
+  width: 100%;
+  height: auto;
+}
+
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -22,6 +32,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
